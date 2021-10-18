@@ -36,8 +36,8 @@ function parseINI (filenameP_ini) {
             }
 
         }
-        fs.writeFileSync(filenameB + '.converted.json', JSON.stringify(INIconverted,null,3))
     }
+    fs.writeFileSync(filenameB + '.converted.json', JSON.stringify(INIconverted,null,3))
 }
 
 function parseENV (filenameP_env) {
